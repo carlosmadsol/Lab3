@@ -14,12 +14,14 @@ void suma_diagonales(int matriz[][100], int n) {
 }
 
 int main() {
-    // Ejemplo 1: Matriz 3x3
-    int matriz1[100][100] = {{1, 2, 3}, 
-                             {4, 5, 6}, 
-                             {7, 8, 9}};
+    // Ejemplo 2: Matriz 5x5
+    int matriz1[100][100] = {{1, 2, 3, 4, 5}, 
+                             {6, 7, 8, 9, 10}, 
+                             {11, 12, 13, 14, 15},
+                             {16, 17, 18, 19, 20},
+                             {21, 22, 23, 24, 25}};
     
-    printf("Matriz 3x3:\n");
-    suma_diagonales(matriz1, 3);
+    printf("Matriz 5x5:\n");
+    suma_diagonales(matriz1, 5);
     return 0;
 }
